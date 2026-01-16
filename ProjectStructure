@@ -1,0 +1,18 @@
+echowork/
+├─ apps/
+│  ├─ web/                # Frontend (Next.js)
+│  └─ api/                # Backend (API routes)
+│
+├─ packages/
+│  ├─ prompts/            # AI prompts (versioned)
+│  ├─ db/                 # DB schema & migrations
+│  └─ ui/                 # Shared UI components (optional)
+│
+├─ docs/
+│  ├─ product.md          # Product definition
+│  ├─ api.md              # API spec
+│  └─ roadmap.md          # MVP → v1
+│
+├─ .gitignore
+├─ README.md
+└─ package.json           # Monorepo root
